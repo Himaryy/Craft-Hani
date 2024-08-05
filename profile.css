@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  font-family: "Noyh", sans-serif;
+}
+
+@font-face {
+  font-family: "Noyh";
+  src: url("fonts/noyh-geometric-regular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* html {
+  scroll-behavior: smooth;
+} */
+
+body {
+  background-color: #fff6ea;
+}
+
+#backgroud {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+#co-background {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+/* Navbar */
+#navbar {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  /* gap: 50px; */
+}
+
+#header-logo {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* padding-left: 30px; */
+}
+
+#header-logo img {
+  width: 100px;
+  /* height: 60px; */
+}
+
+#brand {
+  font-size: 40px;
+}
+
+#header-login {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-right: 100px;
+}
+
+#header-login .material-symbols-outlined {
+  font-size: 50px;
+}
+
+#login {
+  font-size: 20px;
+}
+
+#header-button {
+  width: 100%;
+}
+
+#header-button ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+#header-button ul li {
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  display: inline;
+  cursor: pointer;
+}
+
+#header-button ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+  /* font-weight: bold; */
+  /* padding: 10px 20px;
+    border: 2px solid transparent;
+    transition: border 0.3s;
+    font-family: "Raspberie", serif; */
+}
+
+#text-login {
+  width: 80px;
+  padding: 10px;
+  background-color: #764c22;
+  border-radius: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Content */
+#bg-content {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  background-color: #764c22;
+}
+
+#co-content {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0 0 0;
+}
+
+#content {
+  /* border: solid; */
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+#gambar-content {
+  width: 500px;
+  height: 300px;
+  /* border: solid; */
+  border-radius: 20px;
+  box-shadow: 0 8px 8px rgba(32, 32, 32, 0.5);
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+#gambar-content img {
+  width: 100%;
+  height: 100%;
+}
+
+#text-content {
+  height: 300px;
+  width: 100%;
+  color: #fff;
+}
+
+#judul {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#text {
+  font-size: 20px;
+}
+
+/* Contact */
+#bg-contact {
+  margin: 0 auto;
+  padding: 80px 0 30px 0;
+  width: 100%;
+  /* background-color: #764c22; */
+}
+
+#co-contact {
+  width: 90%;
+  margin: 0 auto;
+  /* padding: 20px 0 0 0; */
+  background-color: #ead7c3;
+  border-radius: 50px;
+}
+
+#contact {
+  /* border: solid; */
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 30px;
+}
+
+#contact1 {
+  width: 100%;
+  padding: 0 30px;
+  color: #3a2922;
+}
+
+#judul-contact {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#contact2 {
+  width: 100%;
+  padding: 25px;
+}
+
+#co-contact-email {
+  /* padding: 0 30px 0 0; */
+  /* border: solid #3a2922; */
+  background-color: #fceddb;
+  border-radius: 50px;
+  height: 300px;
+  margin: 0px 100px 0px 0;
+}
+
+#container-email {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+  color: #3a2922;
+  /* position: relative; */
+  padding: 0 0 0 40px;
+}
+
+#icon-email {
+  /* width: 100%; */
+  padding: 100px 0 0 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#icon-email img {
+  /* color: #000; */
+}
+
+#text-email {
+  width: 100%;
+  padding: 100px 0 0 0;
+  margin: 0 auto;
+}
+
+#container-telp {
+  display: flex;
+  gap: 30px;
+  height: 150px;
+  justify-content: center;
+  color: #3a2922;
+  /* align-items: center; */
+  padding: 10px 0 0 40px;
+}
+
+#icon-telp {
+  /* width: 100%; */
+  padding: 0 0 0 30px;
+  margin: 0 auto;
+  /* text-align: center; */
+}
+
+#icon-telp img {
+  /* color: #000; */
+}
+
+#text-telp {
+  width: 100%;
+  padding: 20px 0 0 15px;
+  margin: 0 auto;
+}
+/* #container-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+#container-telp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+} */
